@@ -241,7 +241,7 @@ public class SAMLEndpoint {
         protected abstract SAMLDocumentHolder extractResponseDocument(String response);
 
         protected boolean isDestinationRequired() {
-            return true;
+            return false;
         }
 
         protected KeyLocator getIDPKeyLocator() {
